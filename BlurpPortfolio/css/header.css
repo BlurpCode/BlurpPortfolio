@@ -1,0 +1,32 @@
+﻿/*Navigation Bar style*/
+#mainNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffc7c7;
+}
+
+.mainNavItem {
+    float: right;
+}
+
+    .mainNavItem a {
+        display: block;
+        color: #ab3535;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Change the link color to #111 (black) on hover */
+        .mainNavItem a:hover {
+            background-color: #edabab;
+        }
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #ffc7c7;
+}

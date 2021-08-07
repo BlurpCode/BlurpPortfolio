@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="BlurpPortfolio.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <ul id="mainNav">
+        <li class="mainNavItem"><a href="Contact.aspx">Contact</a></li>
+        <li class="mainNavItem"><a href="Blog.aspx">Blog</a></li>
+        <li class="mainNavItem"><a href="Projects.aspx">Projects</a></li>
+        <li class="mainNavItem"><a href="Home.aspx">Home</a></li>
+    </ul>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer id="footer">
+        <p id="instagramPlaceholder">Instagram</p>
+        <p id="tikTokPlaceholder">TikTok</p>
+        <p id="webtoonsPlaceholder">Webtoons</p>
+        <p>Website designed and created by Winnie Chow</p>
+        <p>I'm also a software developer!</p> <a>Check out my work here!</a>
+    </footer>
+</body>
+</html>
