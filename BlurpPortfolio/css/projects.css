@@ -1,4 +1,5 @@
-﻿#subNav {
+﻿/*css for projects navigation bar*/
+#subNav {
     border: 1px solid #ccc;
     border-width: 1px 0;
     list-style: none;
@@ -16,8 +17,68 @@
         padding: 10px;
         border: white;
         color: #ab3535;
+        text-decoration: none;
     }
 
-        #subNav button:hover {
-            background-color: #fff6f6;
+        #subNav a:hover {
+            text-decoration: underline;
         }
+
+/*Base projects grid*/
+.container {
+    padding: 0.5em;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "thumbnail1 thumbnail2 thumbnail3"
+        "thumbnail4 thumbnail5 thumbnail6"
+        "thumbnail7 thumbnail8 thumbnail9";
+    grid-gap: 0.5em;
+}
+
+#thumbnail1 {
+    grid-area: thumbnail1;
+    background-color: #d4e8ff;
+}
+
+#thumbnail2 {
+    grid-area: thumbnail2;
+    background-color: #d4e8ff;
+}
+
+#thumbnail3 {
+    grid-area: thumbnail3;
+    background-color: #d4e8ff;
+}
+
+#thumbnail4 {
+    grid-area: thumbnail4;
+    background-color: #d4e8ff;
+}
+
+#thumbnail5 {
+    grid-area: thumbnail5;
+    background-color: #d4e8ff;
+}
+
+#thumbnail6 {
+    grid-area: thumbnail6;
+    background-color: #d4e8ff;
+}
+
+#thumbnail7 {
+    grid-area: thumbnail7;
+    background-color: #d4e8ff;
+}
+
+#thumbnail8 {
+    grid-area: thumbnail8;
+    background-color: #d4e8ff;
+}
+
+#thumbnail9 {
+    grid-area: thumbnail9;
+    background-color: #d4e8ff;
+}
