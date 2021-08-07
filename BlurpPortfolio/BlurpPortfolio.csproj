@@ -71,8 +71,11 @@
     <Content Include="css\home.css" />
     <Content Include="css\projects.css" />
     <Content Include="css\reset.css" />
-    <Content Include="images\imgPlaceholder.png" />
+    <Content Include="images\DemonSlayer.jpg" />
+    <Content Include="images\JujitsuKaisen.jpg" />
+    <Content Include="images\Nobara.jpg" />
     <Content Include="Index.html" />
+    <Content Include="js\slider.js" />
     <Content Include="Web.config" />
     <Content Include="Webforms\Blog.aspx" />
     <Content Include="Webforms\Contact.aspx" />
@@ -127,9 +130,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
