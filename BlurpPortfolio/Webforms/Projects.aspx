@@ -16,17 +16,14 @@
     <!--Slider/Carosuel-->
     <div class="slideshowContainer">
         <div class="mySlides">
-            <div class="slideNum">1/3</div>
             <img class="slideImage" src="../images/DemonSlayer.jpg"/>
         </div>
 
         <div class="mySlides">
-            <div class="slideNum">2/3</div>
             <img class="slideImage" src="../images/JujitsuKaisen.jpg"/>
         </div>
 
         <div class="mySlides">
-            <div class="slideNum">3/3</div>
             <img class="slideImage" src="../images/Nobara.jpg"/>
         </div>
         <!-- Next and previous buttons -->
