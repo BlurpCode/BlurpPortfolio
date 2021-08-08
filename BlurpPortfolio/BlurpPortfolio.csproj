@@ -67,13 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\Blog.css" />
     <Content Include="css\header.css" />
     <Content Include="css\home.css" />
     <Content Include="css\projects.css" />
     <Content Include="css\reset.css" />
+    <Content Include="images\Aether.JPG" />
+    <Content Include="images\Banner.JPG" />
     <Content Include="images\DemonSlayer.jpg" />
     <Content Include="images\JujitsuKaisen.jpg" />
     <Content Include="images\Nobara.jpg" />
+    <Content Include="images\Prince.JPG" />
+    <Content Include="images\WrongNumber.JPG" />
     <Content Include="Index.html" />
     <Content Include="js\slider.js" />
     <Content Include="Web.config" />
